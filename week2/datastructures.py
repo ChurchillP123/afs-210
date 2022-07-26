@@ -10,7 +10,7 @@ print(Data2)
 
 Data3 = ["A", 7, -1, 3.14, True, 7]
 Data3.reverse()
-Data3[2] = 'B'
+Data3[1] = 'B'
 Data3.pop()
 print(Data3)
 
