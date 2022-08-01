@@ -53,9 +53,10 @@ class DoublyLinkedList:
     def addAtIndex(self, data, index):
         # Add a node to the list at the given index position
         # If index equals to the length of linked list, the node will be appended to the end of linked list
-        # if (index == self.count):
-        #     self.addLast(data)
-        #     self.count = self.count + 1 
+        if (index == 1):
+            self.addFirst(data)
+            self.count = self.count + 1 
+            return
         # If index is greater than the length, the data will not be inserted.
         if (index > self.count):
             return
