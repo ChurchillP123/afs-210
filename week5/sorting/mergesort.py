@@ -1,5 +1,4 @@
 def mergeSort(nlist):
-    comp = len(nlist)
     print("Splitting ",nlist)
     # insert your code to complete the mergeSort function
     if len(nlist) > 1:
